@@ -1,0 +1,61 @@
+.history-title{
+  font-size: 50px;
+}
+
+
+
+
+.resources-section {
+            background-color:   #1abc9c;
+            padding: 4rem 0;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+
+        .resources-grid {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-direction: row;
+            margin: 20px;
+            
+            
+            
+        }
+
+        .resource-card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            color: var(--dark);
+            height: 250px;
+            
+        }
+
+        .resource-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .resource-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--resources);
+        }
+
+        .resource-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: black;
+        }
+
+        .resource-desc {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
